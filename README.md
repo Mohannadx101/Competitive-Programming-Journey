@@ -10,7 +10,8 @@ I focus mainly on **Codeforces**, aiming to gain experience.
 
 ### 📂 Structure
 * `/Codeforces` - Contest submissions and up-solving.
+* `/UVA`        - Online Judge Platform.
 * `/CheatSheet` - Snippets for fast deployment during contests.
-* `/Template`   -   The Template im currently using.
+* `/Template`   - The Template im currently using.
 
 > "Documenting the struggle, not just the green checkmarks."
