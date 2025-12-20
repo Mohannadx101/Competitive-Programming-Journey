@@ -15,3 +15,5 @@ I focus mainly on **Codeforces**, aiming to gain experience.
 * `/Template`   - The Template im currently using.
 
 > "Documenting the struggle, not just the green checkmarks."
+[![Codeforces Profile](https://img.shields.io/badge/Codeforces-Username-445f9d?style=flat&logo=codeforces)](https://codeforces.com/profile/mohannadabdallah)
+[![Rating](https://img.shields.io/codeforces/rating/YourCodeforcesUsername?style=flat&label=Rating&color=black)](https://codeforces.com/profile/mohannadabdallah)
