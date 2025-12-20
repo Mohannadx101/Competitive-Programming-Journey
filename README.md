@@ -15,10 +15,8 @@ Currently following [Mostafa Saad's Junior Training Sheet](https://docs.google.c
 ### 📂 Structure
 * `/Codeforces` - Contest submissions and up-solving.
 * `/UVA`        - Solutions for the UVA Online Judge.
-* `/CheatSheet` - Snippets for fast deployment during contests.
 * `/Template`   - The active template I am currently using.
 
 > "Documenting the struggle, not just the green checkmarks."
 
-[![Codeforces Profile](https://img.shields.io/badge/Codeforces-mohannadabdallah-445f9d?style=flat&logo=codeforces)](https://codeforces.com/profile/mohannadabdallah)
-[![Rating](https://img.shields.io/codeforces/rating/mohannadabdallah?style=flat&label=Rating&color=black)](https://codeforces.com/profile/mohannadabdallah)
+[![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=mohannadabdallah&theme=github_dark)](https://codeforces.com/profile/mohannadabdallah)
