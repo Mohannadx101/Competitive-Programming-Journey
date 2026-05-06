@@ -3,7 +3,7 @@
  * Author: Mohannad
  * Date: 5/6/2026
  */
-#include <bits/stdc++.h> 
+#include <bits/stdc++.h>
 using namespace std;
 
 using ll = long long;
@@ -17,17 +17,18 @@ using pii = pair<int, int>;
 void solve() {
     int n,m;
     cin >> n >> m;
-    char mat[n][m];
+    char pixel;
 
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < m; j++) {
-            cin >> mat[i][j];
-            if (mat[i][j] == 'C'||mat[i][j] == 'M'||mat[i][j] == 'Y') {
-                cout<<"#Color"<<endl;
-                return;
-            }
+    int x = n*m;
+
+    for (int i = 0; i < x; i++) {
+        cin >> pixel;
+        if (pixel == 'C' || pixel == 'M' || pixel == 'Y') {
+            cout<<"#Color"<<endl;
+            return;
         }
     }
+
     cout<<"#Black&White"<<endl;
 }
 
