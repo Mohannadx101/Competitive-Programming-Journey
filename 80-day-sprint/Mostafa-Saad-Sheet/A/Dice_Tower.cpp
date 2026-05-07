@@ -1,7 +1,7 @@
 /*
- * Problem: Counterexample
+ * Problem: Dice_Tower
  * Author: Mohannad
- * Date: 5/6/2026
+ * Date: 5/7/2026
  */
 #include <bits/stdc++.h> 
 using namespace std;
@@ -15,24 +15,23 @@ using pii = pair<int, int>;
 #define pb push_back
 
 void solve() {
-    ll l, r;
-    cin >> l >> r;
+    int n, x;
+    cin >> n >> x;
+
+    int num_bottom = 7-x;
+    for (int i = 0; i < n; i ++) {
+        int side1,side2;
+        cin >> side1 >> side2;
+
+        if (7-side1 == num_bottom||7-side2 ==num_bottom || 7-side1 == x || 7-side2 == x) {
+            cout<<"NO"<<endl;
+            return;
+        }
 
 
-    if (r-l+1 < 3) {
-        cout << -1 << endl;
-        return;
-    }
-    if (l%2 == 0) {
-        cout<<l<<" "<<l+1<<" "<<l+2<<endl;
-        return;
-    }
-    if (r-l+1>3) {
-        cout<<l+1<<" "<<l+2<<" "<<l+3<<endl;
-        return;
     }
 
-    cout<<-1<<endl;
+    cout<<"YES"<<endl;
 
 }
 

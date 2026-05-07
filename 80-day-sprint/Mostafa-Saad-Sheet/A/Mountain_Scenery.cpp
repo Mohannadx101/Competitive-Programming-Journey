@@ -1,7 +1,7 @@
 /*
- * Problem: Counterexample
+ * Problem: Mountain_Scenery
  * Author: Mohannad
- * Date: 5/6/2026
+ * Date: 5/7/2026
  */
 #include <bits/stdc++.h> 
 using namespace std;
@@ -15,24 +15,22 @@ using pii = pair<int, int>;
 #define pb push_back
 
 void solve() {
-    ll l, r;
-    cin >> l >> r;
+    int n, k;
+    cin >> n >> k;
 
-
-    if (r-l+1 < 3) {
-        cout << -1 << endl;
-        return;
-    }
-    if (l%2 == 0) {
-        cout<<l<<" "<<l+1<<" "<<l+2<<endl;
-        return;
-    }
-    if (r-l+1>3) {
-        cout<<l+1<<" "<<l+2<<" "<<l+3<<endl;
-        return;
+    int yold[2*n+1];
+    for (int i =0 ; i < 2*n+1;i++) {
+        cin >> yold[i];
     }
 
-    cout<<-1<<endl;
+    for (int i =0 ; i < 2*n+1;i++) {
+        if (i % 2 != 0 && k != 0 && yold[i]-1 > yold[i-1] && yold[i] -1 > yold[i+1]) {
+            k--;
+            cout<<yold[i] -1<<" ";
+        }else {
+            cout<<yold[i]<<" ";
+        }
+    }
 
 }
 
